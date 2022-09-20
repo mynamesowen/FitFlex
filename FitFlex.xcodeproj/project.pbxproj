@@ -9,19 +9,67 @@
 /* Begin PBXBuildFile section */
 		355DE5CE2211E106005D8D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DE5CD2211E106005D8D39 /* AppDelegate.swift */; };
 		355DE5D02211E106005D8D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355DE5CF2211E106005D8D39 /* ViewController.swift */; };
-		355DE5D32211E106005D8D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355DE5D12211E106005D8D39 /* Main.storyboard */; };
 		355DE5D52211E107005D8D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 355DE5D42211E107005D8D39 /* Assets.xcassets */; };
 		355DE5D82211E107005D8D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355DE5D62211E107005D8D39 /* LaunchScreen.storyboard */; };
+		5A30195B221DED6400A0A2D8 /* BackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A30195A221DED6400A0A2D8 /* BackViewController.swift */; };
+		5A30195D221DEDA600A0A2D8 /* LegsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A30195C221DEDA600A0A2D8 /* LegsViewController.swift */; };
+		5A30195F221DEDD600A0A2D8 /* ShouldersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A30195E221DEDD600A0A2D8 /* ShouldersViewController.swift */; };
+		5A762BB8221DE3F900CA2E67 /* ChestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762BB7221DE3F900CA2E67 /* ChestViewController.swift */; };
+		5AC310222257BAE800DE93F6 /* ShoulderWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC310212257BAE800DE93F6 /* ShoulderWorkouts.storyboard */; };
+		5AC310242257C73D00DE93F6 /* BackWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC310232257C73D00DE93F6 /* BackWorkouts.storyboard */; };
+		5AC310262257CCBD00DE93F6 /* AbWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC310252257CCBD00DE93F6 /* AbWorkouts.storyboard */; };
+		5AC310282257D0F400DE93F6 /* LegWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC310272257D0F400DE93F6 /* LegWorkouts.storyboard */; };
+		5AC3103E225BCF3C00DE93F6 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3103D225BCF3C00DE93F6 /* ImageViewExtension.swift */; };
+		5AC31046225C207200DE93F6 /* TextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31045225C207200DE93F6 /* TextViewExtension.swift */; };
+		5AC3105A225D0A0200DE93F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 355DE5D12211E106005D8D39 /* Main.storyboard */; };
+		5AC3108F226D21DF00DE93F6 /* LegsClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3108E226D21DF00DE93F6 /* LegsClassViewController.swift */; };
+		5AC31091226D247700DE93F6 /* ChestClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31090226D247700DE93F6 /* ChestClassViewController.swift */; };
+		5AC31093226D25F900DE93F6 /* AbClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31092226D25F900DE93F6 /* AbClassViewController.swift */; };
+		5AC31095226D269000DE93F6 /* AbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31094226D269000DE93F6 /* AbsViewController.swift */; };
+		5AC31097226D28D900DE93F6 /* ArmClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31096226D28D900DE93F6 /* ArmClassViewController.swift */; };
+		5AC31099226D329C00DE93F6 /* ShoulderClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC31098226D329C00DE93F6 /* ShoulderClassViewController.swift */; };
+		5AC3109B226D3A1400DE93F6 /* BackClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC3109A226D3A1400DE93F6 /* BackClassViewController.swift */; };
+		5AD714E22246CF960026A03D /* ArmWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD714E12246CF960026A03D /* ArmWorkouts.storyboard */; };
+		5AD714E8224BC4CC0026A03D /* UIViewGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD714E7224BC4CC0026A03D /* UIViewGradientExtension.swift */; };
+		5AD714EC224BD5C00026A03D /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD714EB224BD5C00026A03D /* ArmsViewController.swift */; };
+		5AD714EE224BDF550026A03D /* CornerRoundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD714ED224BDF550026A03D /* CornerRoundLabel.swift */; };
+		5AD7A8CB2225DC6B008F182F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7A8CA2225DC6B008F182F /* RoundButton.swift */; };
+		5AD7A8CD2227019C008F182F /* CornerRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7A8CC2227019C008F182F /* CornerRoundedButton.swift */; };
+		5AD7A8CF222786A3008F182F /* ChestWorkouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD7A8CE222786A3008F182F /* ChestWorkouts.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		355DE5CA2211E106005D8D39 /* FitFlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		355DE5CD2211E106005D8D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		355DE5CD2211E106005D8D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "FitFlex/Support Files/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		355DE5CF2211E106005D8D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		355DE5D22211E106005D8D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		355DE5D42211E107005D8D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		355DE5D42211E107005D8D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "FitFlex/Support Files/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		355DE5D72211E107005D8D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		355DE5D92211E107005D8D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		355DE5D92211E107005D8D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "FitFlex/Support Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		5A30195A221DED6400A0A2D8 /* BackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackViewController.swift; sourceTree = "<group>"; };
+		5A30195C221DEDA600A0A2D8 /* LegsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsViewController.swift; sourceTree = "<group>"; };
+		5A30195E221DEDD600A0A2D8 /* ShouldersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouldersViewController.swift; sourceTree = "<group>"; };
+		5A762BB7221DE3F900CA2E67 /* ChestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestViewController.swift; sourceTree = "<group>"; };
+		5AC310212257BAE800DE93F6 /* ShoulderWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShoulderWorkouts.storyboard; sourceTree = "<group>"; };
+		5AC310232257C73D00DE93F6 /* BackWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BackWorkouts.storyboard; sourceTree = "<group>"; };
+		5AC310252257CCBD00DE93F6 /* AbWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AbWorkouts.storyboard; sourceTree = "<group>"; };
+		5AC310272257D0F400DE93F6 /* LegWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LegWorkouts.storyboard; sourceTree = "<group>"; };
+		5AC3103D225BCF3C00DE93F6 /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		5AC31045225C207200DE93F6 /* TextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewExtension.swift; sourceTree = "<group>"; };
+		5AC3108E226D21DF00DE93F6 /* LegsClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsClassViewController.swift; sourceTree = "<group>"; };
+		5AC31090226D247700DE93F6 /* ChestClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestClassViewController.swift; sourceTree = "<group>"; };
+		5AC31092226D25F900DE93F6 /* AbClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbClassViewController.swift; sourceTree = "<group>"; };
+		5AC31094226D269000DE93F6 /* AbsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsViewController.swift; sourceTree = "<group>"; };
+		5AC31096226D28D900DE93F6 /* ArmClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmClassViewController.swift; sourceTree = "<group>"; };
+		5AC31098226D329C00DE93F6 /* ShoulderClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoulderClassViewController.swift; sourceTree = "<group>"; };
+		5AC3109A226D3A1400DE93F6 /* BackClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackClassViewController.swift; sourceTree = "<group>"; };
+		5AD714E12246CF960026A03D /* ArmWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArmWorkouts.storyboard; sourceTree = "<group>"; };
+		5AD714E7224BC4CC0026A03D /* UIViewGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewGradientExtension.swift; sourceTree = "<group>"; };
+		5AD714EB224BD5C00026A03D /* ArmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
+		5AD714ED224BDF550026A03D /* CornerRoundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRoundLabel.swift; sourceTree = "<group>"; };
+		5AD7A8CA2225DC6B008F182F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		5AD7A8CC2227019C008F182F /* CornerRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRoundedButton.swift; sourceTree = "<group>"; };
+		5AD7A8CE222786A3008F182F /* ChestWorkouts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChestWorkouts.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +102,110 @@
 		355DE5CC2211E106005D8D39 /* FitFlex */ = {
 			isa = PBXGroup;
 			children = (
-				355DE5CD2211E106005D8D39 /* AppDelegate.swift */,
-				355DE5CF2211E106005D8D39 /* ViewController.swift */,
-				355DE5D12211E106005D8D39 /* Main.storyboard */,
-				355DE5D42211E107005D8D39 /* Assets.xcassets */,
-				355DE5D62211E107005D8D39 /* LaunchScreen.storyboard */,
-				355DE5D92211E107005D8D39 /* Info.plist */,
+				5AD7A8D522278A99008F182F /* Main */,
+				5AD7A8DB22278CBE008F182F /* Abs */,
+				5AD7A8DD22278CD6008F182F /* Arms */,
+				5AD7A8DF22278D4A008F182F /* Back */,
+				5AD7A8DA22278CA3008F182F /* Chest */,
+				5AD7A8E022278D5D008F182F /* Legs */,
+				5AD7A8E122278D68008F182F /* Shoulders */,
+				5AD7A8E222278DEF008F182F /* Support Files */,
+				5AD7A8DE22278D11008F182F /* Design Classes */,
 			);
 			path = FitFlex;
+			sourceTree = "<group>";
+		};
+		5AD7A8D522278A99008F182F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				355DE5CF2211E106005D8D39 /* ViewController.swift */,
+				355DE5D12211E106005D8D39 /* Main.storyboard */,
+				355DE5D62211E107005D8D39 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5AD7A8DA22278CA3008F182F /* Chest */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7A8CE222786A3008F182F /* ChestWorkouts.storyboard */,
+				5A762BB7221DE3F900CA2E67 /* ChestViewController.swift */,
+				5AC31090226D247700DE93F6 /* ChestClassViewController.swift */,
+			);
+			path = Chest;
+			sourceTree = "<group>";
+		};
+		5AD7A8DB22278CBE008F182F /* Abs */ = {
+			isa = PBXGroup;
+			children = (
+				5AC310252257CCBD00DE93F6 /* AbWorkouts.storyboard */,
+				5AC31094226D269000DE93F6 /* AbsViewController.swift */,
+				5AC31092226D25F900DE93F6 /* AbClassViewController.swift */,
+			);
+			path = Abs;
+			sourceTree = "<group>";
+		};
+		5AD7A8DD22278CD6008F182F /* Arms */ = {
+			isa = PBXGroup;
+			children = (
+				5AD714E12246CF960026A03D /* ArmWorkouts.storyboard */,
+				5AD714EB224BD5C00026A03D /* ArmsViewController.swift */,
+				5AC31096226D28D900DE93F6 /* ArmClassViewController.swift */,
+			);
+			path = Arms;
+			sourceTree = "<group>";
+		};
+		5AD7A8DE22278D11008F182F /* Design Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5AD7A8CA2225DC6B008F182F /* RoundButton.swift */,
+				5AD7A8CC2227019C008F182F /* CornerRoundedButton.swift */,
+				5AD714E7224BC4CC0026A03D /* UIViewGradientExtension.swift */,
+				5AD714ED224BDF550026A03D /* CornerRoundLabel.swift */,
+				5AC3103D225BCF3C00DE93F6 /* ImageViewExtension.swift */,
+				5AC31045225C207200DE93F6 /* TextViewExtension.swift */,
+			);
+			path = "Design Classes";
+			sourceTree = "<group>";
+		};
+		5AD7A8DF22278D4A008F182F /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				5AC310232257C73D00DE93F6 /* BackWorkouts.storyboard */,
+				5A30195A221DED6400A0A2D8 /* BackViewController.swift */,
+				5AC3109A226D3A1400DE93F6 /* BackClassViewController.swift */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		5AD7A8E022278D5D008F182F /* Legs */ = {
+			isa = PBXGroup;
+			children = (
+				5AC310272257D0F400DE93F6 /* LegWorkouts.storyboard */,
+				5A30195C221DEDA600A0A2D8 /* LegsViewController.swift */,
+				5AC3108E226D21DF00DE93F6 /* LegsClassViewController.swift */,
+			);
+			path = Legs;
+			sourceTree = "<group>";
+		};
+		5AD7A8E122278D68008F182F /* Shoulders */ = {
+			isa = PBXGroup;
+			children = (
+				5AC310212257BAE800DE93F6 /* ShoulderWorkouts.storyboard */,
+				5A30195E221DEDD600A0A2D8 /* ShouldersViewController.swift */,
+				5AC31098226D329C00DE93F6 /* ShoulderClassViewController.swift */,
+			);
+			path = Shoulders;
+			sourceTree = "<group>";
+		};
+		5AD7A8E222278DEF008F182F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				355DE5CD2211E106005D8D39 /* AppDelegate.swift */,
+				355DE5D92211E107005D8D39 /* Info.plist */,
+				355DE5D42211E107005D8D39 /* Assets.xcassets */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Owen Pawlak";
 				TargetAttributes = {
 					355DE5C92211E106005D8D39 = {
@@ -122,9 +266,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7A8CF222786A3008F182F /* ChestWorkouts.storyboard in Resources */,
 				355DE5D82211E107005D8D39 /* LaunchScreen.storyboard in Resources */,
+				5AD714E22246CF960026A03D /* ArmWorkouts.storyboard in Resources */,
+				5AC310262257CCBD00DE93F6 /* AbWorkouts.storyboard in Resources */,
+				5AC3105A225D0A0200DE93F6 /* Main.storyboard in Resources */,
+				5AC310282257D0F400DE93F6 /* LegWorkouts.storyboard in Resources */,
+				5AC310242257C73D00DE93F6 /* BackWorkouts.storyboard in Resources */,
 				355DE5D52211E107005D8D39 /* Assets.xcassets in Resources */,
-				355DE5D32211E106005D8D39 /* Main.storyboard in Resources */,
+				5AC310222257BAE800DE93F6 /* ShoulderWorkouts.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +285,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD7A8CD2227019C008F182F /* CornerRoundedButton.swift in Sources */,
+				5AD714E8224BC4CC0026A03D /* UIViewGradientExtension.swift in Sources */,
+				5AD7A8CB2225DC6B008F182F /* RoundButton.swift in Sources */,
+				5AC31095226D269000DE93F6 /* AbsViewController.swift in Sources */,
+				5A30195F221DEDD600A0A2D8 /* ShouldersViewController.swift in Sources */,
 				355DE5D02211E106005D8D39 /* ViewController.swift in Sources */,
+				5AC31099226D329C00DE93F6 /* ShoulderClassViewController.swift in Sources */,
+				5AC31093226D25F900DE93F6 /* AbClassViewController.swift in Sources */,
+				5A30195D221DEDA600A0A2D8 /* LegsViewController.swift in Sources */,
+				5A30195B221DED6400A0A2D8 /* BackViewController.swift in Sources */,
+				5AC3103E225BCF3C00DE93F6 /* ImageViewExtension.swift in Sources */,
+				5AC3108F226D21DF00DE93F6 /* LegsClassViewController.swift in Sources */,
 				355DE5CE2211E106005D8D39 /* AppDelegate.swift in Sources */,
+				5AD714EC224BD5C00026A03D /* ArmsViewController.swift in Sources */,
+				5AC3109B226D3A1400DE93F6 /* BackClassViewController.swift in Sources */,
+				5AC31091226D247700DE93F6 /* ChestClassViewController.swift in Sources */,
+				5A762BB8221DE3F900CA2E67 /* ChestViewController.swift in Sources */,
+				5AC31097226D28D900DE93F6 /* ArmClassViewController.swift in Sources */,
+				5AD714EE224BDF550026A03D /* CornerRoundLabel.swift in Sources */,
+				5AC31046225C207200DE93F6 /* TextViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +356,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -213,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,6 +417,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -267,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -281,7 +451,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FitFlex/Info.plist;
+				DEVELOPMENT_TEAM = UMA55LX8RW;
+				INFOPLIST_FILE = "$(SRCROOT)/FitFlex/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Owen-Pawlak.FitFlex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,7 +469,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FitFlex/Info.plist;
+				DEVELOPMENT_TEAM = UMA55LX8RW;
+				INFOPLIST_FILE = "$(SRCROOT)/FitFlex/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Owen-Pawlak.FitFlex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

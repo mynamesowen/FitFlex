@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Front Raise-->
+        <scene sceneID="bNe-v2-7GG">
+            <objects>
+                <viewController storyboardIdentifier="FrontRaise" title="Front Raise" id="3wH-il-Fd2" customClass="FrontRaiseViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gb1-TI-7Sh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HwV-Li-kt4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="raP-if-XNc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Qkv-OF-ThS">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1124"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front raise start" translatesAutoresizingMaskIntoConstraints="NO" id="saT-tF-tVP" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="29" y="10" width="357" height="236"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="front raise end" translatesAutoresizingMaskIntoConstraints="NO" id="JFs-oj-RcS" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="29" y="254" width="357" height="236"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Waz-1b-hMD" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="517" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – None" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPJ-SJ-UXF" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="558" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Barbell, Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKJ-Nc-c8a" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="599" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OGD-mt-yWA" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="660" width="391" height="318"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Pick a couple of dumbbells and stand with a straight torso and the dumbbells on front of your thighs at arms length with the palms of the hand facing your thighs. This will be your starting position.
+ 2. While maintaining the torso stationary (no swinging), lift the left dumbbell to the front with a slight bend on the elbow and the palms of the hands always facing down. Continue to go up until you arm is slightly above parallel to the floor. Exhale as you execute this portion of the movement and pause for a second at the top. Inhale after the second pause.
+ 3. Now lower the dumbbell back down slowly to the starting position as you simultaneously lift the right dumbbell.
+ 4. Continue alternating in this fashion until all of the recommended amount of repetitions have been performed for each arm.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="mQ0-c2-1UA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="raP-if-XNc" secondAttribute="bottom" id="GpP-Jx-wcx"/>
+                                    <constraint firstItem="raP-if-XNc" firstAttribute="leading" secondItem="HwV-Li-kt4" secondAttribute="leading" id="OwX-4p-HQr"/>
+                                    <constraint firstItem="raP-if-XNc" firstAttribute="top" secondItem="HwV-Li-kt4" secondAttribute="top" id="eld-J3-HQm"/>
+                                    <constraint firstAttribute="trailing" secondItem="raP-if-XNc" secondAttribute="trailing" id="jaT-wM-QoV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HwV-Li-kt4" firstAttribute="trailing" secondItem="uzd-8C-Ckc" secondAttribute="trailing" id="4Qj-8c-KVJ"/>
+                            <constraint firstItem="HwV-Li-kt4" firstAttribute="top" secondItem="gb1-TI-7Sh" secondAttribute="top" id="CGU-ac-YIS"/>
+                            <constraint firstItem="raP-if-XNc" firstAttribute="width" secondItem="gb1-TI-7Sh" secondAttribute="width" id="D69-T3-gJ1"/>
+                            <constraint firstItem="HwV-Li-kt4" firstAttribute="leading" secondItem="uzd-8C-Ckc" secondAttribute="leading" id="gOW-yC-GUq"/>
+                            <constraint firstAttribute="bottom" secondItem="HwV-Li-kt4" secondAttribute="bottom" id="yKV-oC-qE0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uzd-8C-Ckc"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="Qkv-OF-ThS" id="E6B-Jo-ph4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dW-DN-4Kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4.3478260869565224" y="-37.5"/>
+        </scene>
+        <!--Shoulder Shrugs-->
+        <scene sceneID="2j6-d7-PAt">
+            <objects>
+                <viewController storyboardIdentifier="ShoulderShrugs" title="Shoulder Shrugs" id="R5W-Bq-55i" customClass="ShoulderShrugViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7eK-Df-Kqf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujZ-OJ-PfP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pGZ-f7-pBc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="fQX-6P-w4m">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2K-dO-fZO" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="531" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – Traps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="el3-xj-ttb" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="572" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Barbell, Dumbbell, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl5-wb-39c" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="613" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoulder shrug start" translatesAutoresizingMaskIntoConstraints="NO" id="TC0-ys-9YC" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="10" width="365" height="243"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoulder shrug end" translatesAutoresizingMaskIntoConstraints="NO" id="1Ik-Oq-ibQ" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="261" width="365" height="242"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s3t-YY-d7u" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="668" width="391" height="318"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Stand up straight with a dumbbell on each hand (palms facing your torso), arms extended on the sides.
+ 2. Lift the dumbbells by elevating the shoulders as high as possible while you exhale. Hold the contraction at the top for a second. Tip: The arms should remain extended at all times. Refrain from using the biceps to help lift the dumbbells. Only the shoulders should be moving up and down.
+ 3. Lower the dumbbells back to the original position.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="FOn-51-uyD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pGZ-f7-pBc" secondAttribute="trailing" id="1D8-zH-aa1"/>
+                                    <constraint firstItem="pGZ-f7-pBc" firstAttribute="top" secondItem="ujZ-OJ-PfP" secondAttribute="top" id="57o-bF-1dV"/>
+                                    <constraint firstAttribute="bottom" secondItem="pGZ-f7-pBc" secondAttribute="bottom" id="i09-bj-vSg"/>
+                                    <constraint firstItem="pGZ-f7-pBc" firstAttribute="leading" secondItem="ujZ-OJ-PfP" secondAttribute="leading" id="u6F-Eb-uee"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ujZ-OJ-PfP" firstAttribute="top" secondItem="7eK-Df-Kqf" secondAttribute="top" id="5of-Jv-VNN"/>
+                            <constraint firstItem="pGZ-f7-pBc" firstAttribute="width" secondItem="7eK-Df-Kqf" secondAttribute="width" id="Bfc-xc-Nr6"/>
+                            <constraint firstAttribute="bottom" secondItem="ujZ-OJ-PfP" secondAttribute="bottom" id="EvQ-7o-ELd"/>
+                            <constraint firstItem="ujZ-OJ-PfP" firstAttribute="trailing" secondItem="CVp-iV-TdU" secondAttribute="trailing" id="Zyp-si-fax"/>
+                            <constraint firstItem="ujZ-OJ-PfP" firstAttribute="leading" secondItem="CVp-iV-TdU" secondAttribute="leading" id="kjD-ER-9Yt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CVp-iV-TdU"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="fQX-6P-w4m" id="Gt8-u3-P29"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uo1-FR-6gG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="753"/>
+        </scene>
+        <!--Upright Rows-->
+        <scene sceneID="zNO-Qk-cgs">
+            <objects>
+                <viewController storyboardIdentifier="UprightRows" title="Upright Rows" id="634-jE-U3y" customClass="UprightRowViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hHh-v8-66R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Pq-AT-Nmd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Kj-iT-Jvc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="f5i-ut-ZqM">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmu-JW-YdP" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="554" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – None" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yl-PF-QUw" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="595" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Barbell, Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcn-P2-lCB" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="636" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="upright row start" translatesAutoresizingMaskIntoConstraints="NO" id="ZZg-KQ-2Pa" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="18" y="10" width="378" height="252"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="upright row end" translatesAutoresizingMaskIntoConstraints="NO" id="K1B-mj-j68" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="18" y="269" width="378" height="253"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2aa-xE-xLa" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="696" width="391" height="286"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Grasp a pair of dumbbells with an overhand grip that is slightly less than shoulder width and rest them at your side. This will be your starting position.
+ 2. Now exhale and use the sides of your shoulders to lift the dumbbels, raising your elbows up and to the side. Keep the dumbbells close to your body as you raise it. Tip: Your elbows should drive the motion, and should always be higher than your forearms. Remember to keep your torso stationary and pause for a second at the top of the movement.
+ 3. Lower the bar back down slowly to the starting position. Inhale as you perform this portion of the movement.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="hYX-bM-fJs"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="1Kj-iT-Jvc" secondAttribute="bottom" id="3bw-Qb-MxO"/>
+                                    <constraint firstItem="1Kj-iT-Jvc" firstAttribute="leading" secondItem="0Pq-AT-Nmd" secondAttribute="leading" id="ceP-pC-ru3"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Kj-iT-Jvc" secondAttribute="trailing" id="nOT-K9-fGt"/>
+                                    <constraint firstItem="1Kj-iT-Jvc" firstAttribute="top" secondItem="0Pq-AT-Nmd" secondAttribute="top" id="ugS-Ei-UT9"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Kj-iT-Jvc" firstAttribute="width" secondItem="hHh-v8-66R" secondAttribute="width" id="1v7-MT-CGt"/>
+                            <constraint firstItem="0Pq-AT-Nmd" firstAttribute="top" secondItem="hHh-v8-66R" secondAttribute="top" id="6DO-yV-ckG"/>
+                            <constraint firstItem="0Pq-AT-Nmd" firstAttribute="trailing" secondItem="rxt-2Q-Svv" secondAttribute="trailing" id="Olt-rS-RQz"/>
+                            <constraint firstItem="0Pq-AT-Nmd" firstAttribute="leading" secondItem="rxt-2Q-Svv" secondAttribute="leading" id="TAD-jt-bmE"/>
+                            <constraint firstAttribute="bottom" secondItem="0Pq-AT-Nmd" secondAttribute="bottom" id="Xd5-RR-PzV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rxt-2Q-Svv"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="f5i-ut-ZqM" id="Bji-bT-Z3C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vqI-FP-w0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741" y="753"/>
+        </scene>
+        <!--Face Pull-->
+        <scene sceneID="5Aq-ck-Poq">
+            <objects>
+                <viewController storyboardIdentifier="FacePull" title="Face Pull" id="LrZ-ow-gRF" customClass="FacePullViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Zu-gY-V04">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="830"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFp-os-fjN">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="830"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DcR-Gf-Qfc">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="830"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="nUJ-2N-RpK">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1000"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RhE-Qf-mkI" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="546" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96P-fw-Uo9" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="587" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="woI-wU-5gN" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="628" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face pull start" translatesAutoresizingMaskIntoConstraints="NO" id="9Nn-BX-x1p" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="21" y="10" width="373" height="248"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face pull end" translatesAutoresizingMaskIntoConstraints="NO" id="5g5-bo-3yz" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="21" y="266" width="373" height="248"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RWD-wX-vee" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="684" width="391" height="132"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Facing a high pulley with a rope or dual handles attached, pull the weight directly towards your face, separating your hands as you do so. Keep your upper arms parallel to the ground.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="830" id="h0a-oC-TQh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DcR-Gf-Qfc" secondAttribute="trailing" id="3FO-gy-byG"/>
+                                    <constraint firstItem="DcR-Gf-Qfc" firstAttribute="leading" secondItem="kFp-os-fjN" secondAttribute="leading" id="68e-En-KtN"/>
+                                    <constraint firstItem="DcR-Gf-Qfc" firstAttribute="top" secondItem="kFp-os-fjN" secondAttribute="top" id="9KU-74-IBc"/>
+                                    <constraint firstAttribute="bottom" secondItem="DcR-Gf-Qfc" secondAttribute="bottom" id="9ep-hz-j7z"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kFp-os-fjN" firstAttribute="leading" secondItem="lZ6-D7-8E8" secondAttribute="leading" id="HNW-n3-0Nf"/>
+                            <constraint firstItem="kFp-os-fjN" firstAttribute="top" secondItem="2Zu-gY-V04" secondAttribute="top" id="Nr5-3N-Skv"/>
+                            <constraint firstItem="kFp-os-fjN" firstAttribute="trailing" secondItem="lZ6-D7-8E8" secondAttribute="trailing" id="Qxz-Wo-UQp"/>
+                            <constraint firstAttribute="bottom" secondItem="kFp-os-fjN" secondAttribute="bottom" id="f6r-AU-zYm"/>
+                            <constraint firstItem="DcR-Gf-Qfc" firstAttribute="width" secondItem="2Zu-gY-V04" secondAttribute="width" id="tXM-vn-uEx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lZ6-D7-8E8"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="830"/>
+                    <connections>
+                        <outlet property="gradientView" destination="nUJ-2N-RpK" id="KQe-tg-cEf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGb-FF-slj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1493" y="696"/>
+        </scene>
+        <!--Rear Delt Raise-->
+        <scene sceneID="bHr-tM-1ca">
+            <objects>
+                <viewController storyboardIdentifier="RearDeltRaise" title="Rear Delt Raise" id="ugH-Q3-oND" customClass="RearDeltRaiseViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="haj-uT-jwL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c5H-nk-yjd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KA-fj-tCn">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Edg-Yo-Qvd">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1090"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQ7-aw-byh" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="559" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3v-bO-9uX" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="600" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-IR-02A" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="641" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rear delt raise start" translatesAutoresizingMaskIntoConstraints="NO" id="UfX-Hu-b29" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="10" width="384" height="256"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rear delt raise end" translatesAutoresizingMaskIntoConstraints="NO" id="BWz-kk-f2h" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="15" y="274" width="384" height="256"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XEx-F9-Xyl" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="11" y="698" width="391" height="286"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Bend at the knees while keeping the back straight in order to pick up the dumbbells. The palms of your hands should be facing each other as you pick them. This will be your starting position.
+ 2. Keeping your torso forward and stationary, and the arms slightly bent at the elbows, lift the dumbbells straight to the side until both arms are parallel to the floor. Exhale as you lift the weights. (Note: avoid swinging the torso or bringing the arms back as opposed to the side.)
+ 3. After a one second contraction at the top, slowly lower the dumbbells back to the starting position.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="SKy-gg-J9c"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3KA-fj-tCn" firstAttribute="top" secondItem="c5H-nk-yjd" secondAttribute="top" id="4tQ-kY-XnH"/>
+                                    <constraint firstItem="3KA-fj-tCn" firstAttribute="leading" secondItem="c5H-nk-yjd" secondAttribute="leading" id="Uib-bM-h6K"/>
+                                    <constraint firstAttribute="trailing" secondItem="3KA-fj-tCn" secondAttribute="trailing" id="gEI-dX-Vwz"/>
+                                    <constraint firstAttribute="bottom" secondItem="3KA-fj-tCn" secondAttribute="bottom" id="udi-6X-2eo"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="c5H-nk-yjd" secondAttribute="bottom" id="EOR-uB-mAh"/>
+                            <constraint firstItem="c5H-nk-yjd" firstAttribute="trailing" secondItem="Xkg-PV-3hz" secondAttribute="trailing" id="KTH-Qt-mR0"/>
+                            <constraint firstItem="c5H-nk-yjd" firstAttribute="leading" secondItem="Xkg-PV-3hz" secondAttribute="leading" id="QSv-Md-wRF"/>
+                            <constraint firstItem="c5H-nk-yjd" firstAttribute="top" secondItem="haj-uT-jwL" secondAttribute="top" id="VT2-C7-FZ5"/>
+                            <constraint firstItem="3KA-fj-tCn" firstAttribute="width" secondItem="haj-uT-jwL" secondAttribute="width" id="Vau-co-DPv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xkg-PV-3hz"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="Edg-Yo-Qvd" id="urB-wu-uP7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTr-Pi-T56" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2280" y="753"/>
+        </scene>
+        <!--Side Raise-->
+        <scene sceneID="Arm-kj-ZJw">
+            <objects>
+                <viewController storyboardIdentifier="SideRaise" title="Side Raise" id="HhH-DE-NzF" customClass="SideRaiseViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xod-Jl-OOe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmd-vt-vgo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mho-Sr-YNm">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="i3L-1A-Wur">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1116"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="side raise start" translatesAutoresizingMaskIntoConstraints="NO" id="97s-9e-MUq" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="10" width="364" height="242"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="side raise end" translatesAutoresizingMaskIntoConstraints="NO" id="ZYZ-5U-2JN" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="260" width="364" height="240"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="epS-Jf-f4T" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="667" width="391" height="318"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Pick a couple of dumbbells and stand with a straight torso and the dumbbells by your side at arms length with the palms of the hand facing you. This will be your starting position.
+ 2. While maintaining the torso in a stationary position (no swinging), lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to go up until you arms are parallel to the floor. Exhale as you execute this movement and pause for a second at the top.
+ 3. Lower the dumbbells back down slowly to the starting position as you inhale.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSi-g3-lYS" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="526" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – None" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8x3-bJ-g9w" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="567" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-fM-v8u" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="608" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="OdR-m7-aUP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Mho-Sr-YNm" firstAttribute="leading" secondItem="qmd-vt-vgo" secondAttribute="leading" id="Cf4-VN-LPS"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mho-Sr-YNm" secondAttribute="bottom" id="P9Z-mm-5k1"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mho-Sr-YNm" secondAttribute="trailing" id="shd-XP-nqd"/>
+                                    <constraint firstItem="Mho-Sr-YNm" firstAttribute="top" secondItem="qmd-vt-vgo" secondAttribute="top" id="yRa-kX-q7H"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qmd-vt-vgo" firstAttribute="top" secondItem="xod-Jl-OOe" secondAttribute="top" id="6q4-2X-sQT"/>
+                            <constraint firstItem="qmd-vt-vgo" firstAttribute="trailing" secondItem="hpz-VK-LAC" secondAttribute="trailing" id="MS9-Wk-pUj"/>
+                            <constraint firstItem="qmd-vt-vgo" firstAttribute="leading" secondItem="hpz-VK-LAC" secondAttribute="leading" id="ZEZ-qS-j8c"/>
+                            <constraint firstAttribute="bottom" secondItem="qmd-vt-vgo" secondAttribute="bottom" id="lEw-YP-ESE"/>
+                            <constraint firstItem="Mho-Sr-YNm" firstAttribute="width" secondItem="xod-Jl-OOe" secondAttribute="width" id="lVk-EC-wTw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hpz-VK-LAC"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="i3L-1A-Wur" id="leD-en-g9a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0E-6k-gTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740.57971014492762" y="-38.169642857142854"/>
+        </scene>
+        <!--Seated Military Press-->
+        <scene sceneID="aLC-Dm-V0N">
+            <objects>
+                <viewController storyboardIdentifier="SeatedMilitary" title="Seated Military Press" id="t30-Ku-WtU" customClass="SeatedMilitaryPressViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VJA-lo-xun">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UpJ-xz-C57">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sgX-7b-ESD">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="N0Q-G7-jQK">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1120"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdc-Pr-nNl" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="586" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – None" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBx-W5-So4" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="627" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Barbell, Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeJ-AG-MMZ" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="668" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="military press start" translatesAutoresizingMaskIntoConstraints="NO" id="Dzv-4f-i4i" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="10" width="355" height="303"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="military press end" translatesAutoresizingMaskIntoConstraints="NO" id="qaU-A9-Gsd" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="30" y="321" width="355" height="237"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5QP-gU-gW1" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="11" y="722" width="391" height="264"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Position the handles at a height so that when seated they are close to shoulder height.
+ 2. Your feet should be stationary. Grab the handles with the palms facing forward and lift it up so that your arms are fully extended.   3. Lift the weight above your head using your shoulders while exhaling.  4. Slowly begin to lower the weight until it is level with your chin while inhaling.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="NN4-8H-QgA"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="sgX-7b-ESD" secondAttribute="trailing" id="An9-jW-kcq"/>
+                                    <constraint firstItem="sgX-7b-ESD" firstAttribute="leading" secondItem="UpJ-xz-C57" secondAttribute="leading" id="ZCc-iJ-dzZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="sgX-7b-ESD" secondAttribute="bottom" id="sKg-wh-Foe"/>
+                                    <constraint firstItem="sgX-7b-ESD" firstAttribute="top" secondItem="UpJ-xz-C57" secondAttribute="top" id="tyK-V4-3PP"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UpJ-xz-C57" firstAttribute="leading" secondItem="YkF-vd-75s" secondAttribute="leading" id="5Wo-oU-EaY"/>
+                            <constraint firstItem="sgX-7b-ESD" firstAttribute="width" secondItem="VJA-lo-xun" secondAttribute="width" id="MYS-Z3-Bps"/>
+                            <constraint firstItem="UpJ-xz-C57" firstAttribute="top" secondItem="VJA-lo-xun" secondAttribute="top" id="RCK-EF-mDl"/>
+                            <constraint firstAttribute="bottom" secondItem="UpJ-xz-C57" secondAttribute="bottom" id="Uvw-4E-ZlG"/>
+                            <constraint firstItem="UpJ-xz-C57" firstAttribute="trailing" secondItem="YkF-vd-75s" secondAttribute="trailing" id="fH8-kU-wPI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YkF-vd-75s"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="N0Q-G7-jQK" id="sae-a9-zen"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRF-WI-Ldn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1492.753623188406" y="-38.169642857142854"/>
+        </scene>
+        <!--Standing Overhead Press-->
+        <scene sceneID="xdx-Cm-TjS">
+            <objects>
+                <viewController storyboardIdentifier="StandingMilitary" title="Standing Overhead Press" id="ksr-Xq-qhO" customClass="StandingOverheadPressViewController" customModule="FitFlex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wyc-Wy-aM3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilJ-CD-f0T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLD-YC-4VP">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="texture gradient" translatesAutoresizingMaskIntoConstraints="NO" id="dHn-Mw-tka">
+                                                <rect key="frame" x="0.0" y="0.0" width="5000" height="1113"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main Muscle – Shoulders" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A53-ly-Se5" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="531" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other Muscles – None" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SZ-ap-EwY" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="13" y="572" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment – Barbell, Dumbbell, Bands, Cables" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-H6-BFZ" customClass="CornerRoundLabel" customModule="FitFlex">
+                                                <rect key="frame" x="12" y="613" width="390" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overhead press start" translatesAutoresizingMaskIntoConstraints="NO" id="Qyt-jZ-Fqq" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="12" width="371" height="240"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="overhead press end" translatesAutoresizingMaskIntoConstraints="NO" id="nIi-In-cUM" customClass="ImageViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="22" y="260" width="371" height="244"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VCz-uY-5S3" customClass="TextViewExtension" customModule="FitFlex" customModuleProvider="target">
+                                                <rect key="frame" x="12" y="668" width="391" height="318"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <string key="text">1. Raise the dumbbells to shoulder height one at a time. 
+2. Make sure to rotate your wrists so that the palms of your hands are facing forward. This is your starting position. 
+3. Now, exhale and push the dumbbells upward until they touch at the top.
+ 4. Then, after a brief pause at the top contracted position, slowly lower the weights back down to the starting position while inhaling.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="2A8-Qf-l3a"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="kLD-YC-4VP" secondAttribute="trailing" id="2tH-38-Pjd"/>
+                                    <constraint firstItem="kLD-YC-4VP" firstAttribute="top" secondItem="ilJ-CD-f0T" secondAttribute="top" id="3zc-PL-CFq"/>
+                                    <constraint firstItem="kLD-YC-4VP" firstAttribute="leading" secondItem="ilJ-CD-f0T" secondAttribute="leading" id="4gO-Jm-hrV"/>
+                                    <constraint firstAttribute="bottom" secondItem="kLD-YC-4VP" secondAttribute="bottom" id="z8d-Pv-Ie0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ilJ-CD-f0T" firstAttribute="trailing" secondItem="JoO-ZT-r6Y" secondAttribute="trailing" id="RWJ-Dt-8cK"/>
+                            <constraint firstItem="ilJ-CD-f0T" firstAttribute="leading" secondItem="JoO-ZT-r6Y" secondAttribute="leading" id="b9p-xT-ZZe"/>
+                            <constraint firstItem="ilJ-CD-f0T" firstAttribute="top" secondItem="wyc-Wy-aM3" secondAttribute="top" id="izO-ha-3wd"/>
+                            <constraint firstAttribute="bottom" secondItem="ilJ-CD-f0T" secondAttribute="bottom" id="oj1-GZ-zkC"/>
+                            <constraint firstItem="kLD-YC-4VP" firstAttribute="width" secondItem="wyc-Wy-aM3" secondAttribute="width" id="qil-Xw-rUr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JoO-ZT-r6Y"/>
+                    </view>
+                    <size key="freeformSize" width="414" height="1000"/>
+                    <connections>
+                        <outlet property="gradientView" destination="dHn-Mw-tka" id="7Uf-Z2-m6J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPH-pO-A2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2279.7101449275365" y="-38.169642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="face pull end" width="1024" height="683"/>
+        <image name="face pull start" width="1024" height="683"/>
+        <image name="front raise end" width="750" height="499"/>
+        <image name="front raise start" width="750" height="495"/>
+        <image name="military press end" width="1024" height="683"/>
+        <image name="military press start" width="1024" height="875"/>
+        <image name="overhead press end" width="750" height="495"/>
+        <image name="overhead press start" width="750" height="487"/>
+        <image name="rear delt raise end" width="1024" height="683"/>
+        <image name="rear delt raise start" width="1024" height="683"/>
+        <image name="shoulder shrug end" width="750" height="497"/>
+        <image name="shoulder shrug start" width="743" height="496"/>
+        <image name="side raise end" width="750" height="496"/>
+        <image name="side raise start" width="750" height="500"/>
+        <image name="texture gradient" width="1192" height="600"/>
+        <image name="upright row end" width="750" height="501"/>
+        <image name="upright row start" width="750" height="501"/>
+    </resources>
+</document>

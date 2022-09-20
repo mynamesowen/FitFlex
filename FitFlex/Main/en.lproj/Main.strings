@@ -1,0 +1,177 @@
+
+/* Class = "UIButton"; normalTitle = "Rear Delt Raise"; ObjectID = "0BD-nO-A6i"; */
+"0BD-nO-A6i.normalTitle" = "Rear Delt Raise";
+
+/* Class = "UIViewController"; title = "Arms View Controller"; ObjectID = "1WW-mr-ZRa"; */
+"1WW-mr-ZRa.title" = "Arms View Controller";
+
+/* Class = "UIButton"; normalTitle = "Preacher\nCurl"; ObjectID = "2Cm-lS-HHV"; */
+"2Cm-lS-HHV.normalTitle" = "Preacher\nCurl";
+
+/* Class = "UIButton"; normalTitle = "Seated\nRow"; ObjectID = "5O0-KA-oF4"; */
+"5O0-KA-oF4.normalTitle" = "Seated\nRow";
+
+/* Class = "UIButton"; normalTitle = "Skull\nCrushers"; ObjectID = "5Q6-u0-Bw6"; */
+"5Q6-u0-Bw6.normalTitle" = "Skull\nCrushers";
+
+/* Class = "UIButton"; normalTitle = "Standing\nCalf Raise"; ObjectID = "9Xk-et-0WA"; */
+"9Xk-et-0WA.normalTitle" = "Standing\nCalf Raise";
+
+/* Class = "UIButton"; normalTitle = "Bench Press"; ObjectID = "ACC-3L-42b"; */
+"ACC-3L-42b.normalTitle" = "Bench Press";
+
+/* Class = "UIButton"; normalTitle = "Cable Crossover"; ObjectID = "CHX-gD-11w"; */
+"CHX-gD-11w.normalTitle" = "Cable Crossover";
+
+/* Class = "UIButton"; normalTitle = "Bent\nOver\nRow"; ObjectID = "CXH-I0-Qp1"; */
+"CXH-I0-Qp1.normalTitle" = "Bent\nOver\nRow";
+
+/* Class = "UIButton"; normalTitle = "Front\nSquat"; ObjectID = "Cqc-BU-KbL"; */
+"Cqc-BU-KbL.normalTitle" = "Front\nSquat";
+
+/* Class = "UIButton"; normalTitle = "Lunges"; ObjectID = "DKB-5o-OPC"; */
+"DKB-5o-OPC.normalTitle" = "Lunges";
+
+/* Class = "UIButton"; normalTitle = "Leg\nExtension"; ObjectID = "Dhx-iB-HS5"; */
+"Dhx-iB-HS5.normalTitle" = "Leg\nExtension";
+
+/* Class = "UIViewController"; title = "Shoulders View Controller"; ObjectID = "GgS-6f-fQj"; */
+"GgS-6f-fQj.title" = "Shoulders View Controller";
+
+/* Class = "UIButton"; normalTitle = "Butterfly"; ObjectID = "IWQ-s1-TFb"; */
+"IWQ-s1-TFb.normalTitle" = "Butterfly";
+
+/* Class = "UIButton"; normalTitle = "Dumbbell Squeeze Press"; ObjectID = "J0f-Ot-7bq"; */
+"J0f-Ot-7bq.normalTitle" = "Dumbbell Squeeze Press";
+
+/* Class = "UIButton"; normalTitle = "Chest"; ObjectID = "KbP-Ed-p3r"; */
+"KbP-Ed-p3r.normalTitle" = "Chest";
+
+/* Class = "UIButton"; normalTitle = "Seated\nMilitary\nPress"; ObjectID = "KbU-ta-mUL"; */
+"KbU-ta-mUL.normalTitle" = "Seated\nMilitary\nPress";
+
+/* Class = "UIButton"; normalTitle = "Arms"; ObjectID = "LG6-gu-v8d"; */
+"LG6-gu-v8d.normalTitle" = "Arms";
+
+/* Class = "UIButton"; normalTitle = "Crunches"; ObjectID = "LgI-nw-due"; */
+"LgI-nw-due.normalTitle" = "Crunches";
+
+/* Class = "UIButton"; normalTitle = "Incline\nBench Press"; ObjectID = "O7w-rs-TSb"; */
+"O7w-rs-TSb.normalTitle" = "Incline\nBench Press";
+
+/* Class = "UIButton"; normalTitle = "Straight\nArm\nPulldowns"; ObjectID = "PaS-DU-IsY"; */
+"PaS-DU-IsY.normalTitle" = "Straight\nArm\nPulldowns";
+
+/* Class = "UIButton"; normalTitle = "Deadlift"; ObjectID = "Rgg-1N-6AD"; */
+"Rgg-1N-6AD.normalTitle" = "Deadlift";
+
+/* Class = "UIButton"; normalTitle = "Legs"; ObjectID = "Rji-QA-9a6"; */
+"Rji-QA-9a6.normalTitle" = "Legs";
+
+/* Class = "UIButton"; normalTitle = "Pull Ups"; ObjectID = "SUR-mw-ljh"; */
+"SUR-mw-ljh.normalTitle" = "Pull Ups";
+
+/* Class = "UIButton"; normalTitle = "Upright\nRows"; ObjectID = "TIS-Ab-VmE"; */
+"TIS-Ab-VmE.normalTitle" = "Upright\nRows";
+
+/* Class = "UIButton"; normalTitle = "Jack\nKnives"; ObjectID = "TOU-hI-2iQ"; */
+"TOU-hI-2iQ.normalTitle" = "Jack\nKnives";
+
+/* Class = "UIButton"; normalTitle = "Dumbell Fly"; ObjectID = "U19-NN-u1y"; */
+"U19-NN-u1y.normalTitle" = "Dumbell Fly";
+
+/* Class = "UIButton"; normalTitle = "Dumbell\nCurl"; ObjectID = "V9u-SY-Puy"; */
+"V9u-SY-Puy.normalTitle" = "Dumbell\nCurl";
+
+/* Class = "UIViewController"; title = "Back View Controller"; ObjectID = "Vk4-5b-yGo"; */
+"Vk4-5b-yGo.title" = "Back View Controller";
+
+/* Class = "UIButton"; normalTitle = "Single\nArm Row"; ObjectID = "WhG-gO-y8X"; */
+"WhG-gO-y8X.normalTitle" = "Single\nArm Row";
+
+/* Class = "UIButton"; normalTitle = "Abs"; ObjectID = "XsO-Ju-fcJ"; */
+"XsO-Ju-fcJ.normalTitle" = "Abs";
+
+/* Class = "UIButton"; normalTitle = "Face Pull"; ObjectID = "Ya3-GC-pMF"; */
+"Ya3-GC-pMF.normalTitle" = "Face Pull";
+
+/* Class = "UIButton"; normalTitle = "Squats"; ObjectID = "Z5R-HM-Mqk"; */
+"Z5R-HM-Mqk.normalTitle" = "Squats";
+
+/* Class = "UIButton"; normalTitle = "Back\nExtension"; ObjectID = "ZR5-ow-eIz"; */
+"ZR5-ow-eIz.normalTitle" = "Back\nExtension";
+
+/* Class = "UIButton"; normalTitle = "Side\nPlanks"; ObjectID = "aJl-VD-JkN"; */
+"aJl-VD-JkN.normalTitle" = "Side\nPlanks";
+
+/* Class = "UIButton"; normalTitle = "Hammer\nCurl"; ObjectID = "ci0-es-hU8"; */
+"ci0-es-hU8.normalTitle" = "Hammer\nCurl";
+
+/* Class = "UIButton"; normalTitle = "Side\nRaise"; ObjectID = "d6u-2r-zOy"; */
+"d6u-2r-zOy.normalTitle" = "Side\nRaise";
+
+/* Class = "UIButton"; normalTitle = "Shoulder\nShrugs"; ObjectID = "e4n-7n-Kml"; */
+"e4n-7n-Kml.normalTitle" = "Shoulder\nShrugs";
+
+/* Class = "UIButton"; normalTitle = "Reverse\nCable Fly"; ObjectID = "ebS-fZ-sy2"; */
+"ebS-fZ-sy2.normalTitle" = "Reverse\nCable Fly";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "fhQ-ay-HAI"; */
+"fhQ-ay-HAI.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Barbell\nCurl"; ObjectID = "hAt-Bg-SlN"; */
+"hAt-Bg-SlN.normalTitle" = "Barbell\nCurl";
+
+/* Class = "UIButton"; normalTitle = "Reverse\nLeg Curl"; ObjectID = "hQR-SO-LFv"; */
+"hQR-SO-LFv.normalTitle" = "Reverse\nLeg Curl";
+
+/* Class = "UIButton"; normalTitle = "Tricep Rope Pulldowns"; ObjectID = "iAq-FI-bc9"; */
+"iAq-FI-bc9.normalTitle" = "Tricep Rope Pulldowns";
+
+/* Class = "UIButton"; normalTitle = "Lat\nPulldown"; ObjectID = "j0k-AI-RBa"; */
+"j0k-AI-RBa.normalTitle" = "Lat\nPulldown";
+
+/* Class = "UIButton"; normalTitle = "Ab\nBicycle"; ObjectID = "jK3-XU-HPH"; */
+"jK3-XU-HPH.normalTitle" = "Ab\nBicycle";
+
+/* Class = "UIButton"; normalTitle = "Planks"; ObjectID = "jR2-xU-JR1"; */
+"jR2-xU-JR1.normalTitle" = "Planks";
+
+/* Class = "UIButton"; normalTitle = "Leg\nPress"; ObjectID = "kz7-Co-ynz"; */
+"kz7-Co-ynz.normalTitle" = "Leg\nPress";
+
+/* Class = "UIButton"; normalTitle = "Standing\nMilitary\nPress"; ObjectID = "mCr-N1-Gh4"; */
+"mCr-N1-Gh4.normalTitle" = "Standing\nMilitary\nPress";
+
+/* Class = "UIButton"; normalTitle = "Superman"; ObjectID = "n2h-Tu-USA"; */
+"n2h-Tu-USA.normalTitle" = "Superman";
+
+/* Class = "UIViewController"; title = "Legs View Controller"; ObjectID = "nnJ-3z-Fs0"; */
+"nnJ-3z-Fs0.title" = "Legs View Controller";
+
+/* Class = "UIButton"; normalTitle = "Push Up"; ObjectID = "o6T-od-0pC"; */
+"o6T-od-0pC.normalTitle" = "Push Up";
+
+/* Class = "UIButton"; normalTitle = "Low Cable Crossover"; ObjectID = "oLW-Ww-v9n"; */
+"oLW-Ww-v9n.normalTitle" = "Low Cable Crossover";
+
+/* Class = "UIButton"; normalTitle = "Flutter\nKicks"; ObjectID = "qK6-NP-WZu"; */
+"qK6-NP-WZu.normalTitle" = "Flutter\nKicks";
+
+/* Class = "UIButton"; normalTitle = "Oblique\nTwists"; ObjectID = "qX2-SF-RyR"; */
+"qX2-SF-RyR.normalTitle" = "Oblique\nTwists";
+
+/* Class = "UIViewController"; title = "Abs View Controller"; ObjectID = "qjU-33-Lj5"; */
+"qjU-33-Lj5.title" = "Abs View Controller";
+
+/* Class = "UIButton"; normalTitle = "Shoulders"; ObjectID = "s5X-c0-can"; */
+"s5X-c0-can.normalTitle" = "Shoulders";
+
+/* Class = "UIButton"; normalTitle = "Front\nRaise"; ObjectID = "tR6-IJ-Xbd"; */
+"tR6-IJ-Xbd.normalTitle" = "Front\nRaise";
+
+/* Class = "UIButton"; normalTitle = "Tricep Ovearhead Lift"; ObjectID = "wos-fW-xFH"; */
+"wos-fW-xFH.normalTitle" = "Tricep Ovearhead Lift";
+
+/* Class = "UIButton"; normalTitle = "Tricep Dip"; ObjectID = "yLw-rD-CJS"; */
+"yLw-rD-CJS.normalTitle" = "Tricep Dip";
